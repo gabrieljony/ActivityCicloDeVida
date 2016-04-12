@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="top|bottom"
+    android:textAlignment="center"
+    android:background="#dfc6c6"
+    android:measureWithLargestChild="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atividade na Sala de Aula dia 39/01/2016"
+        android:id="@+id/textView"
+        android:layout_weight="0.11"
+        android:gravity="center"
+        android:autoText="false"
+        android:background="#ffffff"
+        android:backgroundTint="#d9ebe5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ciclo de vida do Acivity"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11" />
+</LinearLayout>
